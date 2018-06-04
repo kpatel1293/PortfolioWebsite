@@ -1,0 +1,173 @@
+body
+{
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    overflow: scroll;
+    color: #3c3838;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-box
+{
+    width: auto;
+    height: 80px;
+    position: relative;
+}
+
+.inner-btn
+{
+    margin-left: 20px;
+    margin-right: 10px;
+    width: 353px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.login-btn, .signup-btn
+{
+    width: 147px;
+    height: 40px;
+    border: none;
+    font-size: 14px;
+}
+
+.login-btn
+{
+    background-color: #3c3838;
+    color: #60BBAB;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 20px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.login-btn:hover
+{
+    background-color: transparent;
+    color: #3c3838;
+    border: 2px solid #3c3838;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 20px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.signup-btn
+{
+    background-color: #60BBAB;
+    color: #3c3838;
+    position: absolute;
+    margin-right: 15px;
+    margin-top: 20px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.signup-btn:hover
+{
+    background-color: transparent;
+    color: #60BBAB;
+    border: 2px solid #60BBAB;
+    position: absolute;
+    margin-right: 15px;
+    margin-top: 20px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.title-main-box
+{
+    height: 254px;
+    position: relative;
+    border-bottom: 5px solid #60BBAB;
+}
+
+.title-one
+{
+    height: 211px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.name-title
+{
+    margin-top: 70px;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 100px;
+    letter-spacing: 50px;
+    text-align: center;
+}
+
+h2
+{
+    margin-top: auto;
+    padding-bottom: 20px;
+    margin-bottom: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    font-size: 25px;
+    color: #888;
+}
+
+.nav-box
+{
+    padding-top: 72px;
+    height: 166px;
+    position: relative;
+}
+
+.inner-div
+{
+    width: 1000px;
+    height: 30px;
+    margin: auto auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.nav-link
+{
+    display: inline;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    color: #3c3838;
+}
+
+.nav-link:hover
+{
+    color: #60BBAB;
+    font-weight: bold;
+}
+
+.nav-link:active
+{
+    color: #3c3838;
+    font-weight: bolder;
+    border-bottom: 2px solid #60BBAB;
+}
